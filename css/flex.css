@@ -1,0 +1,390 @@
+:root {
+   --first-color: #8f95a5;
+   --brand-color: #263238;
+   --bg-color: #ffffff;
+   --bg-second-color: #f5f5f5;
+   --bg-price-color: #eeeeee;
+   --logo-accent-color: #939393;
+
+   --second-color: #000000;
+   --btn-bg-color: #263238;
+   --price-first-color: #263238;
+   --price-last-color: #546269;
+   --hover-color: tomato;
+}
+
+body {
+   font-family: 'Poppins', sans-serif;
+
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 1.5;
+
+   color: var(--first-color);
+
+   background-color: var(--bg-color);
+}
+/* --- reset --- */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+   margin: 0;
+}
+
+ul,
+ol {
+   margin: 0;
+   padding: 0;
+}
+
+button {
+   cursor: pointer;
+}
+
+img {
+   display: block;
+   width: 100%;
+}
+
+.link {
+   text-decoration: none;
+}
+
+.list {
+   list-style: none;
+}
+
+.title {
+   font-size: 48px;
+   color: var(--second-color);
+}
+.pretitle {
+   font-size: 30px;
+   color: var(--brand-color);
+}
+
+/* --- Кнопки-ссылки --- */
+
+.link-btn {
+   display: inline-block;
+}
+.btn {
+   display: inline-block;
+   border-radius: 10px;
+
+   color: var(--bg-color);
+   background-color: var(--btn-bg-color);
+}
+.btn:hover,
+.btn:focus {
+   background-color: var(--hover-color);
+   color: var(--bg-color);
+}
+
+/* CONTAINER */
+.container {
+   width: 1360px;
+   margin-left: auto;
+   margin-right: auto;
+   padding-left: 11px;
+   padding-right: 11px;
+   /* outline: 2px solid teal; */
+   /* background-color: beige; */
+}
+
+.section {
+   outline: 1px solid tomato;
+}
+
+/* Centered */
+.centered {
+   text-align: center;
+}
+
+/* ---HEADERER---- */
+.header {
+   padding-top: 55px;
+   padding-bottom: 51px;
+   background-color: beige;
+}
+
+.header-box {
+   display: flex;
+   align-items: center;
+}
+
+.logo {
+   margin-right: 253px;
+   font-weight: 400;
+   font-size: 36px;
+
+   color: var(--second-color);
+}
+
+.logo .accent {
+   color: var(--logo-accent-color);
+}
+
+.nav {
+   display: flex;
+   justify-content: space-between;
+   gap: 40px;
+
+   margin-right: 244px;
+}
+
+.nav .link {
+   font-weight: 500;
+   font-size: 20px;
+
+   color: var(--brand-color);
+}
+.nav .link:hover,
+.nav .link:focus,
+.nav .link:active {
+   color: var(--hover-color);
+}
+.head-btn {
+   padding: 20px 56px;
+
+   font-size: 20px;
+   line-height: 1.5;
+   letter-spacing: 0.03em;
+
+   color: var(--second-color);
+   background-color: #fff;
+}
+
+/* main */
+
+
+/* ----------BOX-BOX------- */
+
+.box-txt{
+   display: flex;
+}
+.par{
+   width: 40px;
+   height: 40px;
+   text-align: center;
+   border: 2px solid red;
+   border-radius: 50%;
+}
+
+.par-txt{
+      vertical-align: middle;
+
+}
+
+/* ------HERO-------  */
+.hero {
+   padding-bottom: 103px;
+}
+
+.hero-box {
+   display: inline-flex;
+   /* justify-content: space-between; */
+}
+
+.hero-descr {
+   padding-top: 51px;
+   margin-right: 163px;
+}
+
+.thumb{
+   flex-shrink: 0;
+}
+
+.hero .title {
+   margin-bottom: 40px;
+
+   font-weight: 600;
+   font-size: 64px;
+   line-height: 1.33;
+
+   /* color: #000000; */
+   color: teal;
+}
+.hero .descr {
+   margin-bottom: 61px;
+   font-size: 24px;
+}
+
+.hero .btn {
+   min-width: 426px;
+   padding: 32px 117px;
+   font-size: 36px;
+}
+
+/* ------ */
+
+/* --- SKILLS --- */
+
+.all-skills {
+   display: flex;
+}
+/* speaking */
+
+.speaking .pretitle {
+   margin-bottom: 5px;
+}
+/* нижний отступ кроме посл */
+.speaking-wrapper .descr:not(:last-child) {
+   margin-bottom: 24px;
+}
+/* ---- */
+
+.speaking-wrapper {
+   margin-bottom: 36px;
+}
+
+.skills {
+   padding-bottom: 252px;
+}
+.skills .title {
+   margin-bottom: 92px;
+   font-weight: 600;
+   font-size: 48px;
+}
+
+.skils-item {
+   background-color: var(--bg-second-color);
+}
+.pretitle {
+   font-weight: 600;
+   font-size: 30px;
+   /* identical to box height */
+}
+
+.skills .btn {
+   padding: 16px 63px;
+   font-size: 18px;
+}
+/* .learn {
+   display: flex;
+   justify-content: center;
+} */
+
+/* ABOUT US */
+
+.about-us {
+   padding-bottom: 188px;
+}
+
+.about-us-wrapper {
+   display: flex;
+}
+
+.about-us-descr {
+   margin-right: 194px;
+}
+
+.about-us-list {
+   display: flex;
+   justify-content: space-between;
+}
+
+.about-us-item {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.about-us .title {
+   margin-bottom: 23px;
+}
+
+.about-txt {
+   margin-bottom: 30px;
+
+   font-size: 20px;
+   line-height: 1.5;
+}
+.about-us .number {
+   font-weight: 600;
+   font-size: 48px;
+
+   color: var(--price-first-color);
+}
+.number + .descr {
+   font-size: 20px;
+}
+
+/* PRICING */
+.pricing .pretitle {
+   line-height: 1.6;
+
+   text-transform: capitalize;
+}
+
+.pricing .descr {
+   font-size: 20px;
+}
+.price-descr {
+   font-size: 18px;
+
+   color: var(--price-last-color);
+   background-color: #eeeeee;
+}
+
+.price-descr .price {
+   font-size: 24px;
+
+   color: var(--price-first-color);
+}
+
+/* CONTACT US */
+
+.contact .descr {
+   font-size: 20px;
+}
+.contact .btn {
+   padding: 20px 56px;
+   min-width: 312px;
+   font-size: 20px;
+}
+
+/* FORM */
+
+.form-txt {
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 30px;
+   /* identical to box height, or 188% */
+
+   color: #8f95a5;
+}
+
+/* FOOTER */
+
+.footer-list .link {
+   font-size: 24px;
+   letter-spacing: 0.02em;
+
+   color: var(--first-color);
+}
+.footer-list .link:hover {
+   color: var(--hover-color);
+}
+/* ----------- */
+.skills summary {
+   text-align: center;
+
+   font-size: 22px;
+   font-weight: 800;
+   color: var(--hover-color);
+}
+.summary {
+   text-align: center;
+
+   font-size: 32px;
+   font-weight: 900;
+   color: red;
+   background-color: yellow;
+}

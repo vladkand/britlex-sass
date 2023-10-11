@@ -1,0 +1,21 @@
+p {
+  padding: 0;
+  margin: 0;
+}
+
+.box {
+  width: 50vw;
+
+  border: 20px solid tomato;
+  padding: 30px;
+  background-color: blueviolet;
+
+  font-size: 20px;
+  font-weight: 800;
+  color: blue;
+}
+.box-title {
+  width: 20em;
+  padding: 20px;
+  background-color: bisque;
+}
