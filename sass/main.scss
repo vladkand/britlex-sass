@@ -1,1 +1,5 @@
-@import './common';
+@import './base/my-reset';
+@import './utils/variables';
+@import './components/common';
+
+@import 'layout/header';

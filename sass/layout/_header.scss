@@ -1,0 +1,42 @@
+.header-box {
+   display: flex;
+   //    justify-content: space-between;
+   align-items: center;
+
+   padding-top: 55px;
+   padding-bottom: 55px;
+}
+
+.logo {
+   font-size: 36px;
+   color: #000;
+
+   &__accent {
+      color: $color-brand;
+   }
+}
+
+.nav {
+   display: flex;
+   align-items: center;
+   margin-left: 256px;
+   outline: 1px solid red;
+   align-self: stretch;
+}
+
+.nav__item + .nav__item {
+   margin-left: 50px;
+}
+
+.nav__link {
+   font-weight: 500;
+   color: $color-second;
+}
+
+.head__btn {
+   margin-left: auto;
+   padding: 20px 56px;
+
+   background-color: $bg-first;
+   border: 2px solid $color-second;
+}
