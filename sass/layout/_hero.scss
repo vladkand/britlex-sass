@@ -1,0 +1,42 @@
+.hero-wrapper {
+   display: flex;
+   justify-content: space-between;
+   padding-bottom: 180px;
+}
+
+.hero__descr {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+}
+
+.hero__title {
+   color: #000;
+
+   font-size: 64px;
+   font-weight: 600;
+   line-height: 1.25; /* 125% */
+}
+
+.hero__txt {
+   margin-top: 40px;
+
+   font-size: 24px;
+}
+
+.hero__thumb {
+   flex-shrink: 0;
+   margin-left: 144px;
+}
+
+.hero__btn {
+   display: inline-flex;
+   margin-top: 60px;
+   padding: 23px 64px;
+
+   font-size: 36px;
+   letter-spacing: 1.08px;
+
+   color: $color-dark-btn;
+   background-color: $bg-btn-color;
+}

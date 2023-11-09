@@ -5,7 +5,7 @@ body {
    font-size: 20px;
    line-height: 1.5;
 
-   color: var(--first-color);
+   color: $color-first;
 
    background-color: var(--bg-color);
    background-color: beige;
@@ -13,19 +13,50 @@ body {
 
 .container {
    width: 1368px;
-   margin-left: auto;
-   margin-right: auto;
+   // margin-left: auto;
+   // margin-right: auto;
    padding-left: 15px;
    padding-right: 15px;
+   padding-bottom: 180px;
 
    background-color: $bg-first;
 }
 
-// Кнопки-ссылки
+/* Centered */
+.title--centered {
+   text-align: center;
+}
+
+// Кнопки, Кнопки-ссылки
 .btn {
    display: inline-block;
-
    border-radius: 10px;
-   // color: var(--bg-color);
-   // background-color: $bg-first;
+
+   &:hover,
+   &:focus {
+      background-color: $color-hover;
+      color: $color-dark-btn;
+   }
+}
+
+.title {
+   font-size: 48px;
+   font-weight: 600;
+   line-height: 1.67; /* 166.667% */
+   color: $color-title;
+}
+
+.subtitle {
+   font-size: 30px;
+   font-weight: 600;
+}
+
+.pretitle,
+.subtitle {
+   font-size: 30px;
+   color: var(--brand-color);
+   /*  */
+
+   font-weight: 600;
+   line-height: 1.6; /* 160% */
 }
