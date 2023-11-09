@@ -13,18 +13,15 @@ body {
 
 .container {
    width: 1368px;
-   // margin-left: auto;
-   // margin-right: auto;
+   margin-left: auto;
+   margin-right: auto;
    padding-left: 15px;
    padding-right: 15px;
    padding-bottom: 180px;
 
    background-color: $bg-first;
-}
 
-/* Centered */
-.title--centered {
-   text-align: center;
+   border-bottom: 1px solid;
 }
 
 // Кнопки, Кнопки-ссылки
@@ -46,17 +43,16 @@ body {
    color: $color-title;
 }
 
-.subtitle {
-   font-size: 30px;
-   font-weight: 600;
-}
-
 .pretitle,
 .subtitle {
    font-size: 30px;
-   color: var(--brand-color);
-   /*  */
+   color: $color-subtitle;
 
    font-weight: 600;
    line-height: 1.6; /* 160% */
+}
+
+/* Centered */
+.title--centered {
+   text-align: center;
 }

@@ -1,0 +1,31 @@
+//
+.pricing__list {
+   display: flex;
+   gap: 30px;
+   margin-top: 60px;
+}
+
+.pricing__item {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   flex-basis: calc((100% - 2 * 30px) / 3);
+
+   outline: 2px solid green;
+}
+
+.pricing__subtitle {
+   padding-top: 31px;
+}
+
+.pricing__txt {
+   margin-top: 20px;
+}
+
+.pricing__price {
+   display: inline-block;
+   margin-top: 30px;
+   padding-left: 31px;
+
+   outline: 1px solid tomato;
+}
