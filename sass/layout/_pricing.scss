@@ -8,23 +8,32 @@
 .pricing__item {
    display: flex;
    flex-direction: column;
-   justify-content: space-between;
+   // justify-content: space-between;
    flex-basis: calc((100% - 2 * 30px) / 3);
 
    outline: 2px solid green;
 }
 
+.pricing__descr {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: flex-start;
+   flex-grow: 1;
+}
+
 .pricing__subtitle {
    padding-top: 31px;
+   align-self: flex-start;
 }
 
 .pricing__txt {
    margin-top: 20px;
+   padding-bottom: 30px;
 }
 
 .pricing__price {
    display: inline-block;
-   margin-top: 30px;
    padding-left: 31px;
 
    outline: 1px solid tomato;
