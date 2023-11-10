@@ -66,7 +66,7 @@ body {
 }
 
 .container--thin {
-  padding-bottom: 55px;
+  padding-bottom: 0;
 }
 
 .btn {
@@ -77,6 +77,7 @@ body {
 .btn:hover, .btn:focus {
   background-color: tomato;
   color: #ffffff;
+  border-color: transparent;
 }
 
 .btn--dark {
@@ -138,7 +139,6 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  outline: 1px solid teal;
 }
 
 .logo {
@@ -156,7 +156,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-left: 256px;
+  margin-left: 236px;
   -ms-flex-item-align: stretch;
       align-self: stretch;
 }
@@ -176,8 +176,11 @@ body {
 }
 
 .head__btn {
-  margin-left: auto;
+  margin-left: 121px;
   padding: 20px 56px;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
   background-color: #ffffff;
   border: 2px solid #263238;
 }

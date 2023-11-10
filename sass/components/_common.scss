@@ -25,7 +25,7 @@ body {
 }
 
 .container--thin {
-   padding-bottom: 55px;
+   padding-bottom: 0;
 }
 
 // Кнопки, Кнопки-ссылки
@@ -38,6 +38,7 @@ body {
    &:focus {
       background-color: $color-hover;
       color: $color-dark-btn;
+      border-color: transparent;
    }
 }
 
