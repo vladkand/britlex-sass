@@ -8,10 +8,7 @@
 .pricing__item {
    display: flex;
    flex-direction: column;
-   // justify-content: space-between;
    flex-basis: calc((100% - 2 * 30px) / 3);
-
-   outline: 2px solid green;
 }
 
 .pricing__descr {
@@ -32,9 +29,27 @@
    padding-bottom: 30px;
 }
 
-.pricing__price {
+.pricing__counter {
    display: inline-block;
    padding-left: 31px;
+   padding-top: 11px;
+   padding-right: 22.5px;
+   padding-bottom: 7px;
 
-   outline: 1px solid tomato;
+   border-radius: 5px;
+   background-color: $bg-price;
+}
+
+.price {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   font-size: 24px;
+   color: $color-second;
+}
+
+.price__descr {
+   margin-left: 28px;
+   color: $color-price-descr;
+   font-size: 18px;
 }

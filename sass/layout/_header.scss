@@ -28,20 +28,26 @@
    align-self: stretch;
 }
 
-.nav__item {
-   display: flex;
-   // align-items: stretch;
-   align-self: stretch;
-}
+// .nav__item {
+//    display: flex;
+//    align-items: stretch;
+//    align-self: stretch;
+// }
 
 .nav__item + .nav__item {
    margin-left: 50px;
 }
 
 .nav__link {
+   padding-top: 18px;
+   padding-bottom: 18px;
    font-weight: 500;
    color: $color-second;
-   align-self: stretch;
+
+   &:hover,
+   &:focus {
+      color: $color-hover;
+   }
 }
 
 .head__btn {

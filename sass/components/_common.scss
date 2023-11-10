@@ -24,16 +24,26 @@ body {
    border-bottom: 1px solid;
 }
 
+.container--thin {
+   padding-bottom: 55px;
+}
+
 // Кнопки, Кнопки-ссылки
 .btn {
    display: inline-block;
    border-radius: 10px;
+   cursor: pointer;
 
    &:hover,
    &:focus {
       background-color: $color-hover;
       color: $color-dark-btn;
    }
+}
+
+.btn--dark {
+   color: $color-dark-btn;
+   background-color: $bg-btn-color;
 }
 
 .title {
@@ -55,4 +65,25 @@ body {
 /* Centered */
 .title--centered {
    text-align: center;
+}
+
+.section__wrapper {
+   display: flex;
+   justify-content: space-between;
+}
+
+.section__thumb {
+   flex-shrink: 0;
+}
+
+// .section__item {
+//    outline: 2px solid green;
+// }
+
+.section__item + .section__item {
+   margin-left: 144px;
+}
+
+.section__txt {
+   margin-top: 60px;
 }
