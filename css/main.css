@@ -50,8 +50,7 @@ body {
   font-size: 20px;
   line-height: 1.5;
   color: #8f95a5;
-  background-color: var(--bg-color);
-  background-color: beige;
+  background-color: #ffffff;
 }
 
 .container {
@@ -62,7 +61,6 @@ body {
   padding-right: 15px;
   padding-bottom: 180px;
   background-color: #ffffff;
-  border-bottom: 1px solid;
 }
 
 .container--thin {
@@ -112,6 +110,10 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+.section__wrapper--last {
+  padding-bottom: 55px;
 }
 
 .section__thumb {
@@ -348,4 +350,42 @@ body {
       -ms-flex-positive: 2;
           flex-grow: 2;
   margin-left: 30px;
+}
+
+.fotter__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-top: 1px solid red;
+}
+
+.service__wrapper {
+  margin-left: auto;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.service__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.service__item + .service__item {
+  margin-left: 80px;
+}
+
+.service__link {
+  color: inherit;
+  font-size: 24px;
+  letter-spacing: 0.48px;
 }/*# sourceMappingURL=main.css.map */

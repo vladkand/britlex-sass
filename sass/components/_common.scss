@@ -7,8 +7,7 @@ body {
 
    color: $color-first;
 
-   background-color: var(--bg-color);
-   background-color: beige;
+   background-color: $bg-first;
 }
 
 .container {
@@ -21,7 +20,7 @@ body {
 
    background-color: $bg-first;
 
-   border-bottom: 1px solid;
+   // border-bottom: 1px solid;
 }
 
 .container--thin {
@@ -73,13 +72,13 @@ body {
    justify-content: space-between;
 }
 
+.section__wrapper--last {
+   padding-bottom: 55px;
+}
+
 .section__thumb {
    flex-shrink: 0;
 }
-
-// .section__item {
-//    outline: 2px solid green;
-// }
 
 .section__item + .section__item {
    margin-left: 144px;
