@@ -1,20 +1,21 @@
 //
-// .footer {
-
-// }
+.footer {
+   padding-top: 55px;
+   padding-bottom: 55px;
+}
 
 .fotter__wrapper {
    //    padding-top: 55px;
    display: flex;
    align-items: center;
 
-   border-top: 1px solid red;
+   border-top: 1px solid $color-footer-border;
 }
 
-.service__wrapper {
+.service__box {
    margin-left: auto;
-   padding-top: 22px;
-   padding-bottom: 22px;
+   // padding-top: 22px;
+   // padding-bottom: 22px;
    display: flex;
    align-items: center;
 }
@@ -27,6 +28,10 @@
 }
 
 .service__link {
+   display: inline-block;
+   padding-top: 22px;
+   padding-bottom: 22px;
+
    color: inherit;
 
    font-size: 24px;
