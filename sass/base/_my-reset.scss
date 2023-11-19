@@ -39,7 +39,8 @@ img {
    display: block;
    max-width: 100%;
 
-   outline: 1px solid red;
+   // outline: 1px solid red;
+   outline: 1px solid $color-footer-border;
 }
 
 .link {

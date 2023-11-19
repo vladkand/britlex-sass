@@ -29,7 +29,7 @@ ol {
 img {
   display: block;
   max-width: 100%;
-  outline: 1px solid red;
+  outline: 1px solid #c4c4c4;
 }
 
 .link {
@@ -51,6 +51,11 @@ body {
   line-height: 1.5;
   color: #8f95a5;
   background-color: #ffffff;
+}
+
+.section--thin {
+  padding-top: 55px;
+  padding-bottom: 55px;
 }
 
 .container {
@@ -123,11 +128,6 @@ body {
 
 .section__txt {
   margin-top: 60px;
-}
-
-.header-wrapper {
-  padding-top: 55px;
-  padding-bottom: 55px;
 }
 
 .header-box {
@@ -346,11 +346,6 @@ body {
       -ms-flex-positive: 2;
           flex-grow: 2;
   margin-left: 30px;
-}
-
-.footer {
-  padding-top: 55px;
-  padding-bottom: 55px;
 }
 
 .fotter__wrapper {
