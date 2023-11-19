@@ -1,25 +1,15 @@
 //
-// .footer {
-//    padding-top: 55px;
-//    padding-bottom: 55px;
-// }
 
 .fotter__wrapper {
-   //    padding-top: 55px;
    display: flex;
    align-items: center;
 
    border-top: 1px solid $color-footer-border;
 }
 
-.service__box {
+.service-list {
+   display: flex;
    margin-left: auto;
-
-   display: flex;
-   align-items: center;
-}
-.service__list {
-   display: flex;
 }
 
 .service__item + .service__item {

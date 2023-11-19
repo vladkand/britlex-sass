@@ -3,12 +3,13 @@
 //    padding-bottom: 55px;
 // }
 
-.header-box {
+.header__box {
    display: flex;
    align-items: center;
 }
 
 .logo {
+   display: inline-flex;
    font-size: 36px;
    color: #000;
 
@@ -41,7 +42,7 @@
    }
 }
 
-.head__btn {
+.header__btn {
    margin-left: 121px;
    padding: 20px 56px;
    flex-grow: 1;

@@ -53,7 +53,8 @@ body {
   background-color: #ffffff;
 }
 
-.section--thin {
+.header,
+.footer {
   padding-top: 55px;
   padding-bottom: 55px;
 }
@@ -130,7 +131,7 @@ body {
   margin-top: 60px;
 }
 
-.header-box {
+.header__box {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -140,6 +141,9 @@ body {
 }
 
 .logo {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   font-size: 36px;
   color: #000;
 }
@@ -173,7 +177,7 @@ body {
   color: tomato;
 }
 
-.head__btn {
+.header__btn {
   margin-left: 121px;
   padding: 20px 56px;
   -webkit-box-flex: 1;
@@ -358,20 +362,11 @@ body {
   border-top: 1px solid #c4c4c4;
 }
 
-.service__box {
+.service-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   margin-left: auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.service__list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
 }
 
 .service__item + .service__item {
