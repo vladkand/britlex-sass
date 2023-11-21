@@ -25,4 +25,9 @@
 
    font-size: 24px;
    letter-spacing: 0.48px;
+
+   &:focus,
+   &:hover {
+      color: $color-hover;
+   }
 }
