@@ -33,61 +33,23 @@ body {
    padding-bottom: 0;
 }
 
-// Кнопки, Кнопки-ссылки
-.btn {
-   display: inline-block;
-   border-radius: 10px;
-   cursor: pointer;
-
-   &:hover,
-   &:focus {
-      background-color: $color-hover;
-      color: $color-dark-btn;
-      border-color: transparent;
-   }
-}
-
-.btn--dark {
-   color: $color-dark-btn;
-   background-color: $bg-btn-color;
-}
-
-.title {
-   font-size: 48px;
-   font-weight: 600;
-   line-height: 1.67; /* 166.667% */
-   color: $color-title;
-}
-
-.pretitle,
-.subtitle {
-   font-size: 30px;
-   color: $color-subtitle;
-
-   font-weight: 600;
-   line-height: 1.6; /* 160% */
-}
-
-/* Centered */
-.title--centered {
-   text-align: center;
-}
-
 .section__wrapper {
    display: flex;
    justify-content: space-between;
 }
 
-// .section__wrapper--last {
-//    padding-bottom: 55px;
-// }
-
 .section__thumb {
    flex-shrink: 0;
 }
 
-.section__item + .section__item {
-   margin-left: 144px;
+// .section__item + .section__item {
+//    margin-left: 144px;
+// }
+
+.section__item {
+   & + & {
+      margin-left: 144px;
+   }
 }
 
 .section__txt {
