@@ -1,17 +1,12 @@
 // Кнопки, Кнопки-ссылки
-.button,
-.btn {
-   margin: 0;
-   padding: 0;
-   border-color: transparent;
-   //    border: none;
-   cursor: pointer;
-}
 
+.button,
 .btn {
    display: inline-block;
    border-radius: 10px;
    cursor: pointer;
+
+   @extend %transition;
 
    &:hover,
    &:focus {

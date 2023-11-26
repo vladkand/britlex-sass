@@ -4,14 +4,15 @@
 // }
 
 .header__box {
-   display: flex;
-   align-items: center;
+   @extend %flex-aling-center;
+   // display: flex;
+   // align-items: center;
 }
 
 .logo {
-   display: inline-flex;
+   // display: inline-flex;
    font-size: 36px;
-   color: #000;
+   color: $color-title;
 
    &__accent {
       color: $color-brand;
@@ -19,11 +20,8 @@
 }
 
 .nav {
-   display: flex;
-   align-items: center;
+   @extend %flex-aling-center;
    margin-left: 236px;
-   // outline: 1px solid red;
-   align-self: stretch;
 }
 
 .nav__item + .nav__item {
@@ -31,10 +29,13 @@
 }
 
 .nav__link {
+   display: block;
    padding-top: 18px;
    padding-bottom: 18px;
    font-weight: 500;
    color: $color-second;
+
+   @extend %transition;
 
    &:hover,
    &:focus {
