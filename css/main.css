@@ -325,7 +325,7 @@ body {
   margin-left: 30px;
 }
 
-.fotter__wrapper {
+.footter__wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -356,4 +356,36 @@ body {
 }
 .service__link:focus, .service__link:hover {
   color: tomato;
+}
+
+.test {
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  outline: 1px solid;
+}
+
+.test__list-one {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.test__list-two {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.list-one__item {
+  padding: 30px;
+  outline: 1px solid;
+}
+
+.list-two__item {
+  padding: 10px;
+  outline: 1px solid;
 }/*# sourceMappingURL=main.css.map */

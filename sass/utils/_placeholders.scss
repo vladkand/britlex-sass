@@ -6,3 +6,10 @@
    display: flex;
    align-items: center;
 }
+
+// ==== TEMP MIXIN =====
+@mixin flextype($display: flex, $justify: start, $align: stretch) {
+   display: $display;
+   justify-content: $justify;
+   align-items: $align;
+}
