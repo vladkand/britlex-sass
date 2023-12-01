@@ -7,8 +7,33 @@
    align-items: center;
 }
 
+// -----TEST
+
+%just-between {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+
+   // background-color: #fdadad;
+}
+
+%just-araund {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+
+   background-color: #fdeead;
+}
+
+%just-start {
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   background-color: #c4fdad;
+}
+
 // ==== TEMP MIXIN =====
-@mixin flextype($display: flex, $justify: start, $align: stretch) {
+@mixin flextype($display: flex, $justify: space-between, $align: center) {
    display: $display;
    justify-content: $justify;
    align-items: $align;

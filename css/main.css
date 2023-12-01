@@ -13,6 +13,18 @@
           align-items: center;
 }
 
+.test {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 /*  */
 body {
   font-family: "Poppins", sans-serif;
@@ -359,22 +371,62 @@ body {
 }
 
 .test {
+  margin-top: 20px;
   padding: 20px;
+  outline: 1px solid;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.test-midl {
+  padding: 20px;
+  outline: 1px solid;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.test-last {
+  padding: 20px;
+  outline: 1px solid;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  outline: 1px solid;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+.test-last .list-two {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  background-color: black;
 }
 
-.test__list-one {
+.test__list-one,
+.list-one {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.test__list-two {
+.test__list-two,
+.list-two {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
